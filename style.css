@@ -1,0 +1,652 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 100;
+}
+nav{
+    min-height: 10vh;
+    padding: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav h6, nav ul{
+    font-size: 1.2rem;
+    flex: 1;
+    align-items: center;
+}
+nav h6 img{
+    max-width: 35%;
+    padding: auto;
+   
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+#pc-img{
+    width: 100%;
+    height: 89.9vh;
+    position: relative;
+    object-fit: cover;
+    filter: brightness(90%);
+}
+#The-Big-Title{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-55%);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 5.4vw;
+    line-height: 6rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(135deg, rgba(223, 223, 223, 0.86) 0%, rgba(255, 255, 255, 0.6) 81.25%);
+
+
+}
+.intro{
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    background-color: #738283;
+    z-index: 20000000000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    width: 100%;
+    height: 100%;
+    
+}
+.hide{
+    background: #000000;
+    overflow: hidden;
+    
+}
+.hide span{
+    display: inline-block;
+    transform: translateY(120%);
+    
+}
+.intro-text{
+    color: rgb(227, 242, 255);
+    font-size: 3rem;
+    font-family: 'Heebo', sans-serif;
+}
+#div-Inro{
+    background: rgba(2, 157, 236, 1);
+    height: 300px;
+    margin-top: 1rem;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    transform: translateY(-3.4px);
+}
+hr{
+    margin: 6% auto;
+    opacity: 0.5;
+    width: 30vw;
+}
+#div-Inro h2{
+    padding: 0rem 5%;
+    font-family: 'Rasa', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vw;
+    line-height: 97px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+#Intro-img-pc{
+    float: right;
+    height: 100%;
+    width: 35%;
+    margin-left: 3%;
+    text-align: center;
+}
+#div-Inro p{
+font-family: 'Playfair Display', serif;
+font-size: 2vw;
+line-height: 1.6rem;
+align-items: center;
+text-align: justify; 
+color: #f1f1f1ee;   
+padding: 0px 3%;
+justify-content: start;
+}
+#Diapo2 h2{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    text-align: center;
+    color: #2C7192;
+}
+#grid-tem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.web-work-type{
+    width: 370px;
+    height: 450px;
+    box-shadow: -9px 11px 14px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 15%;
+    margin: 5vh;
+    
+    
+}
+.web-work-type h3{
+    
+    
+    justify-content: center;
+    align-items: center;
+    color: #029DEC;
+    padding: 2rem 0;
+}
+#one{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    display: flex;
+    
+    
+}
+.web-work-type p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: justify;
+justify-content: center;
+margin: 0 3rem;
+font-style: italic;
+font-weight: normal;
+font-size: 1rem;
+line-height: 23px;
+}
+#p-two{
+    font-size: 1.2rem;
+}
+#blast{
+    font-size: 1.2rem;
+}
+#two{
+    font-family: Perpetua Titling MT;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    
+}
+
+#hr-two{
+    width: 60vw;
+}
+#Diplome{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(90, 162, 195, 0.67) 0%, rgba(70, 130, 160, 0.86) 51.72%, #2C7192 100%);
+    border-radius: 67px;
+    width: 90vw;
+    height: 606px;
+    margin: auto auto 12vh auto;
+}
+#Diplome h2{
+font-family: Sedan;
+font-style: normal;
+font-weight: normal;
+font-size: 3rem;
+line-height: 72px;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+padding: 3% 0;
+
+color: #FFFFFF;
+}
+#hr-three{
+    margin: 2% auto 6% auto;
+}
+#Diplome p{
+    font-family: Sedan;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 1.2rem;
+display: flex;
+align-items: center;
+text-align: center;
+line-height: 106%;
+padding: 5vh 3%;
+
+color: #000000;
+
+}
+#Diplome #Les-dip-one{
+    color: #3AFFD0;
+}
+#Diplome #les-dib-two{
+    color: #3AFFD0;
+    font-weight: 800;
+    justify-content: center;
+}
+#les-raisons{
+    display: flex;
+    flex-direction: column;
+   margin: 7.5% auto;
+   justify-content: center;
+   
+}
+#les-raisons h2{
+    text-align: center;
+    justify-content: center;
+    margin-top: 1.2rem;
+    padding-bottom: 5rem;
+    font-family: Sedan;
+    font-size: 2.5rem;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #5aa2c3d3;
+    }
+#les-raisons h4{
+
+font-size: 1.5rem;
+line-height: 42px;
+padding: 0 1rem;
+align-items: center;
+text-align: justify;
+
+color: #D0A303;
+}
+#les-raisons p{
+    margin: auto 5%;
+    padding-right: 5%;
+    font-family: Sedan;
+font-style: normal;
+font-weight: normal;
+font-size: 1.6rem;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: justify;
+
+}
+#hr-four{
+    margin: 6% auto -3% auto;    
+}
+#static-diapo h2 , #front-logo{
+    font-family: 'Modern Antiqua', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(91.72deg, #D0A303 0%, #FED133 52.07%, #FFEEB1 85.91%);
+    justify-content: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+    
+    
+
+}
+#static-diapo p{
+    font-family: 'Scope One', serif;
+    font-size: 120%;
+    justify-content: justify;
+    line-height: 41px;
+    align-items: center;
+    display: flex;
+    padding: 40px 4% 120px 5%;
+}
+.front-logo{
+    width: 75%;
+}
+#front-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto;
+    justify-items: center;
+    margin: 6% ;
+}
+.sql{
+    width: 50%;
+}
+.lbp{
+    width: 85%;
+}
+.salaryofdev h2{
+    margin: 12% 0;
+}
+/* .carousel-container{
+    width: 100vw;
+    margin: auto;
+    border: 3px solid black;
+    overflow: hidden;
+    justify-content: center;
+} */
+.carousel-slider{
+    border:4px solid #000000;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;    
+    width: 95vw;
+    margin:1rem auto;
+}
+.carousel-slider img{
+    width: 80%;
+}
+.les-conditions{
+    border-radius: 20px;
+    border: 10px ridge #0075af;
+    border-style: solid double solid double;
+   width: 90%;
+   margin: 5rem auto;
+}
+#conditions-title{
+    text-align: center;
+    padding: 3%;
+    font-size: 2.7rem;
+    color: #5BC7FC;
+}
+#hr-conditions{
+    margin: 0;
+    width: 50%;
+    margin: 2% 24.8%;
+}
+#sub-tit-con{
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 1.6rem;
+    color: #4495BD;
+}
+#conditions-p{
+    font-family: 'Scope One', serif;
+    font-size: 1rem;
+    justify-content: justify;
+    line-height: 41px;
+    align-items: center;
+    display: flex;
+    padding: 40px 4% 100px 5%;
+}
+#spe{
+    width: 70%;
+}
+#heart{
+    width: 6rem;
+}
+.bye{
+    width: 90%;
+    height: 8rem;
+}
+.lasttit{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bye{    
+    font-size: 6rem;
+    font-family: 'Sahitya', serif;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.3s ease-out;
+}
+#bye.appear{
+    transition: all 0.6s ease-in ;
+    opacity: 1;
+    transform: translateY(0px);
+}
+@media screen and (max-width: 852px){
+    #Diplome p{
+        font-size: 1.1rem;
+    }
+    #Diplome h2{
+        font-size: 2.3rem;
+    }
+    .web-work-type p{
+        font-size: 0.76rem;
+    }
+    #p-two{
+        font-size: 1.05rem;
+    }
+    #one{
+        font-size: 2rem;
+    }
+    #The-Big-Title{
+        line-height: 4rem;
+    }
+    #two{
+        font-size: 1.7rem;
+    }
+    #les-raisons p{
+        font-size: 1rem;
+    }
+    #les-raisons h2{
+        font-size: 2rem;
+    }
+    .intro-text{
+        font-size: 2.1rem
+    }
+    #sub-tit-con{
+        font-size: 1.2rem;
+        
+    }
+    #conditions-p{
+        font-size: 1rem;
+    }
+    #conditions-title{
+        font-size: 2.2rem;
+    }
+    #static-diapo p{
+    font-size: 80%;
+    }
+    #blast{
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    #last{
+        font-size: 1rem;
+    }
+    #bye{    
+        font-size: 4rem;   
+    }
+}
+@media screen and (max-width: 445px){
+    #Diplome p{
+        font-size: 0.86rem;
+    }
+    #Diplome h2{
+        font-size: 1.6rem;
+    }
+    .web-work-type p{
+        font-size: 0.5rem;
+    }
+    #p-two{
+        font-size: 0.67rem;
+    }
+    #The-Big-Title{
+        line-height: 3rem;
+    }
+    #one{
+        font-size: 1.7rem;
+    }
+    #two{
+        font-size: 1.3rem;
+    }
+    #les-raisons h2{
+        font-size: 1.5rem;
+    }
+    #les-raisons h4{
+        font-size: 1.2rem;
+    }
+    nav{
+        position: relative;
+    }
+    #static-diapo h2{
+        font-size: 1.5rem;
+    }
+    .hamburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 1000000;
+    }
+    nav ul {
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0%;
+        display: flex;
+        flex-direction: column;
+        background-color: #f6fbfd;
+        justify-content: space-around;
+        clip-path: circle(100px at 100% -20%);
+        -webkit-clip-path: circle(100px at 100% -20%);
+        -moz-clip-path: circle(100px at 100% -20%);
+        -o-clip-path: circle(100px at 100% -20%);
+        -ms-clip-path: circle(100px at 100% -20%);
+        transition: all 0.8s ease-out;
+        pointer-events: none;
+       
+    }
+    nav ul.open{
+        clip-path: circle(1100px at 90% -10%);
+        -webkit-clip-path: circle(1100px at 90% -10%);
+        -moz-clip-path: circle(1100px at 90% -10%);
+        -o-clip-path: circle(1100px at 90% -10%);
+        -ms-clip-path: circle(1100px at 90% -10%);
+        pointer-events: all;
+    }
+    .nav-links li{
+        opacity: 0;
+
+    }
+    .nav-links li:nth-child(1){
+        
+        transition: all 0.5s ease 0.32s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.45s;
+    }
+    li.fade{
+        opacity: 1;
+    }
+    .line{
+        width: 30px;
+        height: 2.5px;
+        background: #5AA2C3;
+        margin: 5px;
+    }
+    .line.opened{
+        background: #2C7192;
+    }
+    .intro-text{
+        font-size: 1.6rem
+    }
+    #sub-tit-con{
+        font-size: 0.9rem;
+        
+    }
+    #conditions-p{
+        font-size: 0.8rem;
+    }
+    #conditions-title{
+        font-size: 1.8rem;
+    }
+    #blast{
+        font-size: 0.7rem;
+        line-height: 26px;
+    }
+    #last{
+        font-size: 0.5rem;
+    }
+    #bye{    
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 287px){
+    #Diplome p{
+        font-size: 0.6rem;
+    }
+    #Diplome h2{
+        font-size: 1.2rem;
+    }
+    .web-work-type p{
+        font-size: 0.3rem;
+    }
+    #p-two{
+        font-size: 0.45rem;
+    }
+    #one{
+        font-size: 1rem;
+    }
+    #two{
+        font-size: 0.7rem;
+    }
+    #les-raisons h2{
+        font-size: 1.2rem;
+    }
+    #les-raisons h4{
+        font-size: 0.8rem;
+    }
+    #The-Big-Title{
+        line-height: 1.7rem;
+    }
+    #static-diapo h2{
+        font-size: 1.3rem;
+    }
+    #blast{
+        font-size: 0.5rem;
+        line-height: 30px;
+    }
+    #last{
+        font-size: 0.5rem;
+        line-height: 20px;
+    }
+    #bye{    
+        font-size: 2rem;
+    }   
+}

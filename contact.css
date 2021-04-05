@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+section{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+}
+
